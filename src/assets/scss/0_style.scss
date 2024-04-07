@@ -128,10 +128,11 @@ $btnColorFixed: var(--mainColor);
     padding: 5px 10px;
 }
 @mixin h2Title {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: clamp(22px, 4vw, 32px);
+    color: var(--mainColor);
 }
 @mixin btn {
     background-color: var(--mainColor);
@@ -162,6 +163,5 @@ $btnColorFixed: var(--mainColor);
     }
 }
 @mixin txt {
-    padding: 0 10px;
     line-height: 20px;
 }
