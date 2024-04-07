@@ -1,0 +1,11 @@
+.onlyText {
+    margin-top: 50px;
+}
+.onlyText__box {
+}
+.onlyText__title {
+    @include h2Title;
+}
+.onlyText__txt {
+    line-height: 20px;
+}
