@@ -8,6 +8,15 @@
 }
 .bathroom_wrp {
 }
+.bathroom_wrp2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.stars {
+    margin-bottom: 20px;
+}
 .bathroom__title {
     @include h2Title;
 }
@@ -21,4 +30,7 @@
 }
 .bathroom__txt {
     line-height: 20px;
+}
+.onlyText__titleCenter {
+    text-align: center !important;
 }

@@ -2,10 +2,16 @@
     margin-top: 50px;
 }
 .onlyText__box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .onlyText__title {
     @include h2Title;
 }
 .onlyText__txt {
     line-height: 20px;
+}
+.onlyText__txtStrong {
+    font-weight: 700;
 }
